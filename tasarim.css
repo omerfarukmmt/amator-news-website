@@ -1,0 +1,155 @@
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgba(42, 165, 118, 0.678);
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+}
+
+nav {
+    background-color: #477960;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.nav-bar {
+    margin: 0 10px;
+}
+
+.nav-bar a {
+    color: rgb(0, 255, 221);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-bar a:hover {
+    color: #ffcc00;
+}
+
+.content {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #477960;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+nav a{
+   margin-left: 125px;
+   margin-right: 125px;
+}
+
+.haber-alanı{
+    margin: 1rem auto;
+}
+
+.haber-satir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 200;
+}
+.section-haber{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ana-haber-satir{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.b-haber{
+    width:70%;
+    display: inline-block;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    background-color:lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: #00000069 0 0 10px 5px;
+}
+
+
+.b-haber img{    
+    width: 50%;
+    margin: 10px 20px;
+}
+
+.ana-b-haberr{
+    width:30%;
+    display: inline-block;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: #00000069 0 0 10px 5px;
+    
+}
+
+.sonDakika{
+    width: 80%;
+    text-align: center;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+h1.sonDakika-baslik{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: #477960;
+}
+.sonDakika-resim{
+    width: 80%;
+}
+.one-cikanlar-text{
+    margin-left: 37px;
+    color: #477960;
+}
+.haber-baslik{
+    font-weight: bold ;
+}
+
+.ana-sayfa-haber-baslik a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black ;
+    transition: .1s ease-in-out;
+}
+
+.ana-sayfa-haber-baslik a:hover{
+    font-weight: bold;
+    color: darkgreen;
+    
+}
+.sonDakika video{
+    width: 80%;
+}
